@@ -4,14 +4,13 @@ import com.oussama.databasepostgree.mappers.Mapper;
 import com.oussama.databasepostgree.models.dto.BookDto;
 import com.oussama.databasepostgree.models.entities.BookEntity;
 import com.oussama.databasepostgree.services.BookService;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.print.Book;
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @RestController
 public class BookControllerr {
@@ -53,12 +52,10 @@ public class BookControllerr {
     }
 
     @GetMapping(path = "/books")
-    public List<BookDto> listBooks() {
-        List<BookEntity> books = bookService.findAll();
+    public Page<BookDto> listBooks(Pageable pageable) {
+        Page<BookEntity> books = bookService.findAll(pageable);
 
-        return books.stream().
-                map(bookMapper::mapTo)
-                .collect(Collectors.toList());
+        return books.map(bookMapper::mapTo);
     }
 
     @GetMapping(path = "/books/{isbn}")

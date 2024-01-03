@@ -3,6 +3,8 @@ package com.oussama.databasepostgree.services.impl;
 import com.oussama.databasepostgree.models.entities.BookEntity;
 import com.oussama.databasepostgree.repositories.BookRepository;
 import com.oussama.databasepostgree.services.BookService;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,6 +33,11 @@ public class BookServiceImpl implements BookService {
                         .findAll()
                         .spliterator(), false)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public Page<BookEntity> findAll(Pageable pageable) {
+        return bookRepository.findAll(pageable);
     }
 
     @Override
