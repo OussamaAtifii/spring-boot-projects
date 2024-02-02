@@ -5,6 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ff1eb4d-fb70-4f0d-92e1-14854df7bef3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice-course/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/java/com/microservice/course/MicroserviceCourseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course/src/test/java/com/microservice/course/MicroserviceCourseApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/MicroserviceStudentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/controllers/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/repositories/StudentRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/java/com/microservice/student/services/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-student/src/test/java/com/microservice/student/MicroserviceStudentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-eureka/src/main/java/com/microservice/eureka/MicroserviceEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka/src/main/java/com/microservice/eureka/MicroserviceEurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-eureka/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../database-jpa/src/main/java/com/oussama/databasepostgree/services/impl/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../database-jpa/src/main/java/com/oussama/databasepostgree/services/impl/AuthorServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +46,16 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -28,17 +70,28 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bgxNZ3G5tX4MKg3rBHTA4r8ohK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -48,10 +101,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringMicroservicesApplication">
+  <component name="RunManager" selected="Spring Boot.MicroserviceStudentApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="microservice.gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.gateway.Application" />
@@ -66,6 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroserviceCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="microservice-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.course.MicroserviceCourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroserviceEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="microservice-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.eureka.MicroserviceEurekaApplication" />
@@ -76,6 +137,13 @@
     <configuration name="MicroserviceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="microservice-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.gateway.MicroserviceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceStudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="microservice-student" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.student.MicroserviceStudentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,11 +164,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706650484677</updated>
-      <workItem from="1706650485889" duration="2223000" />
+      <workItem from="1706650485889" duration="2726000" />
+      <workItem from="1706819455841" duration="11000" />
+      <workItem from="1706819695135" duration="9217000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
