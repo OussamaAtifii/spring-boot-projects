@@ -6,10 +6,11 @@ import java.util.List;
 
 public interface StudentService {
 
-    Iterable<Student> findAll();
+    List<Student> findAll();
+
     Student findById(Long id);
 
-    Student save(Student student);
+    void save(Student student);
 
     List<Student> findByCourseId(Long courseId);
 }

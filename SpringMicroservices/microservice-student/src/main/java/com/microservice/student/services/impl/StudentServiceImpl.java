@@ -17,8 +17,8 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Iterable<Student> findAll() {
-        return studentRespository.findAll();
+    public List<Student> findAll() {
+        return (List<Student>) studentRespository.findAll();
     }
 
     @Override
@@ -27,12 +27,12 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Student save(Student student) {
-    return studentRespository.save(student);
+    public void save(Student student) {
+        studentRespository.save(student);
     }
 
     @Override
     public List<Student> findByCourseId(Long courseId) {
-        return studentRespository.findAllAllByCourseId(courseId);
+        return studentRespository.findAllByCourseId(courseId);
     }
 }
